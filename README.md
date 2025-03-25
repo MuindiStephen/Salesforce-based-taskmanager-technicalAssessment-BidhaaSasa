@@ -17,19 +17,19 @@ A Salesforce-based task management system that provides REST API endpoints for t
 
 This project implements a custom task management solution in Salesforce, featuring:
 
-✅ Custom Task Object for task management.
-✅ REST API endpoints for task operations.
-✅ Lightning Web Components (LWC) for task visualization.
-✅ Batch/Queueable Apex jobs for automated task processing.
-✅ OAuth-secured API authentication.
+- ✅ Custom Task Object for task management.
+- ✅ REST API endpoints for task operations.
+- ✅ Lightning Web Components (LWC) for task visualization.
+- ✅ Batch/Queueable Apex jobs for automated task processing.
+- ✅ OAuth-secured API authentication.
 
 ## Features
 
-✔ REST API for Task Management – Fetch, create, update, and delete tasks via API.
-✔ Lightning Web Component UI – Interactive interface for managing tasks.
-✔ Batch Processing – Automates large-scale task updates.
-✔ OAuth Authentication – Secure access to API endpoints.
-✔ Governor Limit Compliance – Optimized to handle Salesforce limits.
+- ✔ REST API for Task Management – Fetch, create, update, and delete tasks via API.
+- ✔ Lightning Web Component UI – Interactive interface for managing tasks.
+- ✔ Batch Processing – Automates large-scale task updates.
+- ✔ OAuth Authentication – Secure access to API endpoints.
+- ✔ Governor Limit Compliance – Optimized to handle Salesforce limits.
 
 ## Installation
 
@@ -85,8 +85,8 @@ This project implements a custom task management solution in Salesforce, featuri
     https://orgfarm-09d8fb4aca-dev-ed.develop.my.salesforce.com/
    ``` 
   - Select OAuth Scopes:
-    ✅ Access API (api)
-    ✅ Perform requests (refresh_token, offline_access)
+    - ✅ Access API (api)
+    - ✅ Perform requests (refresh_token, offline_access)
 3. Save & note down Consumer Key & Secret
 
 ## Usage
@@ -147,13 +147,13 @@ sfdx force:apex:test:run -l RunLocalTests -r human
 
 ## Limitations
 
-⚠ Governor Limits – API calls and batch operations are subject to Salesforce limits.
-⚠ Bulk Operations – Limited to 10,000 records per operation.
-⚠ Session Timeout – OAuth tokens expire after 2 hours of inactivity.
+- ⚠ Governor Limits – API calls and batch operations are subject to Salesforce limits.
+- ⚠ Bulk Operations – Limited to 10,000 records per operation.
+- ⚠ Session Timeout – OAuth tokens expire after 2 hours of inactivity.
 
 ## Security Considerations
 
-🔒 Enforced Field-Level Security (FLS)
-🔒 CRUD Permissions Verified
-🔒 Rate Limiting Applied to API Calls
-🔒 OAuth-based Authentication for API Access
+- 🔒 Enforced Field-Level Security (FLS)
+- 🔒 CRUD Permissions Verified
+- 🔒 Rate Limiting Applied to API Calls
+- 🔒 OAuth-based Authentication for API Access
