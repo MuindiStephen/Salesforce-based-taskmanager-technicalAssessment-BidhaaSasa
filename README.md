@@ -1,4 +1,4 @@
-# Task Management System
+# Salesforce-based task management system
 
 A Salesforce-based task management system that provides REST API endpoints for task operations and includes Lightning Web Components for task visualization.
 
